@@ -1,11 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html,body{
+html, body {
     height: 100%;
     width: 100%;
+    font-family: Arial, sans-serif;
+}
 
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #map {
+        height: 90vh; /* Adjust height for smaller screens */
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    #map {
+        height: 85vh; /* Further adjust height for very small screens */
+        width: 100%;
+    }
 }
